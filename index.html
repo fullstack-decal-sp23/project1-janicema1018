@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janice Ma</title>
+    <meta name="Janice Ma">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="center">Janice Ma</h1>
+        <h2 class="center">MEng Bioinformatics @ UC Berkeley</h2>
+        <div class="icons">
+            <a style="margin-right: 10px;" target="_blank" href="https://github.com/janicema1018"><i class="fab fa-github fa-lg"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/rongyu-janice-ma-630bba173/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <button style="text-align: center;" onclick="alert('Click on the icons above to connect with me!')">Click Me</button>
+        </div>
+    </header>
+
+    <br>
+
+    <main>
+        <section id="about me">
+            <h3 class="center">About Me</h3>
+            <p>Hello! I'm a graduate student studying Bioinformatics at Berkeley!</p>
+            <p>I'm excited to learn more about web development!!!</p>
+        </section>
+
+        <form>
+            <label for="person">Are you a cat person or a dog person?</label>
+            <br>
+            <br>
+            <input type="text" label="person">
+
+            <input type="submit" id="submit">
+        </form>
+
+        <script>
+            document.getElementById("submit").addEventListener("click", function handleInput(event) {
+                alert("I learned more about you!! :)")
+            });
+        </script>
+
+        <section id="skills">
+            <h3 class="center">Skills</h3>
+            <h5 style="display: inline-block;">Programming Languages => </h5>
+            <h6 style="display: inline-block;">Java, JavaScript, Python, R</h6>
+            <br>
+            <h5 style="display: inline-block;">Web Development => </h5>
+            <h6 style="display: inline-block;">React, HTML/CSS, Node.js, Spring, Elasticsearch, MySQL, AWS</h6>
+        </section>
+        <br>
+
+        <section id="work">
+            <h3 class="center">Work</h3>
+            <ul>
+                <li>
+                    <p><em>Research Assistant</em> at Mesirov Lab</p>
+                    <ul>
+                        <li>Designed and analyzed experiments using statistical analysis, and A/B testing</li>
+                        <li>Performed exploratory data analysis for gene expression data leveraging using K-means Cluster
+                            Analysis in RStudio, and developed data visualization workflow using Python Seaborn</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p><em>Data Scientist and Consultant Intern</em> at Ernst & Young</p>
+                    <ul>
+                        <li>Productionalized ETL data pipelines which processed 300 million data using SQL and Python</li>
+                        <li>Developed interactive dashboards using Python Seaborn to monitor key compliance metrics
+                            saving team 20 labor hours per week</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p><em>Algorithm Team Intern</em> at Ping An Technology</p>
+                    <ul>
+                        <li>Performed data mining and testing with Scrapy and Selenium, and streamlined feature
+                            engineering process for downstream tasks which speed up data processing time by 40%</li>
+                        <li>Proposed and tested Google translate API to replace the legacy translation pipeline, saving team
+                            $4000 translation cost</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        
+        <section id="life">
+            <h3 class="center">Life</h3>
+            <h4>Berkeley</h4>
+            <div class="berkeley">
+                <img src="img1.jpeg" alt="image1">
+                <img src="img2.jpeg" alt="image2">
+                <img src="img3.jpeg" alt="image3">
+                <img src="img4.jpeg" alt="image4">
+                <img src="img5.jpeg" alt="image5">
+                <img src="img6.jpeg" alt="image6">
+                <img src="img7.jpeg" alt="image7">
+            </div>
+            <h4>San Diego</h4>
+            <div class="sandiego">
+                <img id="first" src="img8.jpeg" alt="image8">
+                <img id="first" src="img11.jpeg" alt="image11">
+                <img id="second" src="img9.jpeg" alt="image9">
+                <img id="second" src="img10.jpeg" alt="image10">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

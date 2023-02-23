@@ -1,0 +1,56 @@
+* {
+    font-family: "Roboto";
+}
+
+.center {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    background-color: lavender;
+}
+
+form {
+    background-color: lightgoldenrodyellow;
+}
+
+.berkeley {
+    display: flex;
+    justify-content: space-between;
+}
+
+.berkeley img {
+    height: 170px;
+    width: 200px;
+}
+
+.sandiego {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8px;
+}
+#first {
+    height: 170px;
+    width: 200px;
+}
+
+#second {
+    height: 220px;
+    width: 200px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
